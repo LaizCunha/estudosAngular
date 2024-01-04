@@ -9,5 +9,8 @@ import { Component } from '@angular/core';
 export class Button {
     buttonText: string = 'ACESSAR';
     buttonNumber: Number = 1;
-    buttonTexts: string[] = ['VENDER', 'COMPRAR']
+    buttonTexts: string[] = ['VENDER', 'COMPRAR'];
+    buttonObject = {
+        label: 'adicionar ao carrinho',
+    };
 }
