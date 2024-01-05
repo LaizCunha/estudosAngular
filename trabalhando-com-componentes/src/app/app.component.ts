@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'trabalhando-com-componentes';
+  name = 'Angular';
+  buttonLabel: string = "CARRINHO";
+  buttonSecond: string = "ADICIONAR AOS FAVOITOS";
 }
